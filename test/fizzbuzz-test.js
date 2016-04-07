@@ -12,4 +12,9 @@ describe('Fizzbuzz', function() {
     var app = new Fizzbuzz();
     expect(app.getNumber(5)).to.equal('Buzz');
   });
+
+  it('4 should return 4', function() {
+    var app = new Fizzbuzz();
+    expect(app.getNumber(4)).to.equal(4);
+  });
 });
