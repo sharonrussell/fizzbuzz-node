@@ -17,4 +17,9 @@ describe('Fizzbuzz', function() {
     var app = new Fizzbuzz();
     expect(app.getNumber(4)).to.equal(4);
   });
+
+  it('15 should return FizzBuzz', function() {
+	var app = new Fizzbuzz();
+	expect(app.getNumber(15)).to.equal("FizzBuzz");
+  });
 });
