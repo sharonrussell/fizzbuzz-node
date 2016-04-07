@@ -1,7 +1,7 @@
 function Fizzbuzz() {}
 
 Fizzbuzz.prototype.getNumber = function(number) {
-  return 0;
+  return 'fizz';
 };
 
 module.exports = Fizzbuzz;
