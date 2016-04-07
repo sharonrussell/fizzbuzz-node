@@ -1,6 +1,6 @@
 function Fizzbuzz() {}
 
-Fizzbuzz.prototype.getSubtotal = function() {
+Fizzbuzz.prototype.getNumber = function(number) {
   return 0;
 };
 
